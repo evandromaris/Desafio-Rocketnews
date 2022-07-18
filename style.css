@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;   
+    position: fixed;
+    
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #121214;
+    
+}
+
+main header img{
+    width: 389px;
+    height: 94px;
+    margin: 50px 30px;
+}
+
+
+main section {
+    width: 647px;
+    height: 102px;
+    margin: 20px 36px;
+    color: #fff;
+    text-align: left;
+}
+
+main section h1{
+    color: #08C05E;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+main section .sub-text{
+    margin-top: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+main section .inf{
+    margin-top: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 138.7%;   
+}
+
+/*Campo de envio de e-mail */
+
+form{
+    position: relative;
+    margin-left: 36px;
+    margin-top: 30px;
+}
+
+form label {
+    color: #fff;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.campo-email{
+    position: absolute;
+    background-color: #fff;
+    width: 840px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    border-left: 5px solid #04D361;
+    margin-top: 17px;
+    box-shadow: 0 10px 20px 0 #121214;
+}
+
+input{
+    width: 798px;
+    border: none;
+    font-size: 16px;
+    padding-left:10px;
+    border: 0 none;
+    box-shadow: 0 0 0 0;
+    outline: 0;    
+}
+
+input::placeholder{
+    color: #6A6A6A;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    
+}
+button {
+    width: 48px;
+    height: 48px;
+    border: 0 none;
+    background-color: #8257E5;
+    cursor: pointer;
+}
+
+button img {
+    fill: #fff;
+}
+
+.link {
+    width: 196px;
+    height: 24px;
+    margin-left:  36px ;
+    margin-top: 100px;
+}
+
+.link a{
+    text-decoration: none;
+    color: #8257E5;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.link img{
+    position: relative;
+    top: 8px;
+}
+
+footer{
+    margin-left: 20vw;
+    margin-top: 28vh;
+    font-size: 11px;
+    color: #6A6A6A;
+}
+
+footer a {
+    text-decoration: none;
+    color: #8257E5;
+}
+
+footer a:hover{
+    color: #04D361;
+}
+
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/read_news.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+
+}
